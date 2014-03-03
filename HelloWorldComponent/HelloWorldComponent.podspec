@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source       = { :git => "https://github.com/sandeshpujarmindtree/mypods.git", :COMMIT => "" }
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
+  s.source       = { :git => "https://github.com/sandeshpujarmindtree/mysources.git", :commit => "c3c207e610dc344fad9eb2e06d427de921b7560c" }
+  s.source_files  = 'HelloWorldComponent/HelloWorldComponent/Classes/*.{h,m}'
+  # s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
 
 end
